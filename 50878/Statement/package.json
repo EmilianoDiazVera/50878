@@ -1,0 +1,14 @@
+{
+  "name": "statement",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "java -jar antlr-4.13.2-complete.jar -Dlanguage=JavaScript -visitor -no-listener Statement.g4",
+    "start": "node index.js",
+    "dev": "npm run build && npm start"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

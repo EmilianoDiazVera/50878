@@ -1,0 +1,5 @@
+let numero = ;
+
+var total = 20;
+
+numero = numero + total;
